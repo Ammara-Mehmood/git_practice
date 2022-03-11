@@ -26,7 +26,6 @@ const BookForm = (props) => {
 
     if (allFieldsFilled) {
       const book = {
-        id: uuidv4(),
         bookname,
         author,
         price,
